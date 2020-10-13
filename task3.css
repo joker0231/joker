@@ -1,0 +1,28 @@
+#header{
+    background-color: #cdd3de;
+  }
+  #content{
+    background-color: #f0b7c0;
+    display: table;
+    width: 40%;
+  }
+  #sidebar{
+    background-color: #f0d2e6;
+    float: right;
+    width: 20%;
+    display: table;
+  }
+  #sidebar2{
+    background-color: #c3eedf;
+    float: left;
+    width: 40%;
+    display:table;
+  }
+  #footer{
+    background-color: #f7f9c2;
+  }
+  #page{
+      width: 500px;
+      overflow: hidden;
+  }
+  
