@@ -85,14 +85,17 @@
 
 .d5{
     background-color: #fff;
-    height: 400px;
+    height: 450px;
     width: 1000px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .d6{
     background-color: #fff;
-    height: 400px;
+    height: 450px;
     width: 1000px;
     margin: 0 auto;
     margin-top: 10px;
@@ -124,4 +127,141 @@
     color: rgb(177, 177, 177);
     margin-left: 475px;
     margin-top: 0px;
+}
+
+
+.title{
+    border: 3px rgb(88, 223, 182) solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: rgb(88, 223, 182);
+    margin-top: 10px;
+}
+
+.content{
+    list-style-position: outside;
+    height: 130px;
+    width: 200px;
+    border-right: thistle solid 1px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+}
+
+.cou :hover {
+    color: coral;
+}
+
+.word{
+    color: rgb(177, 177, 177);
+    font-size: 13px;
+}
+
+.plus{
+    border: 2px rgb(88, 223, 182) solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(88, 223, 182);
+    margin-top: 25px;
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.title2{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sec{
+    font-size: 7px;
+    color: rgb(88, 223, 182);
+}
+
+.p1{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    width: 140px;
+    border: rgb(88, 223, 182) solid 4px;
+    display: inline-block;
+}
+
+.p1:hover{
+    background-color: rgb(88, 223, 182);
+    color: seashell;
+}
+
+.num{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    width: 148px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+
+
+.content1{
+    text-align: center;
+}
+
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.pic2{
+    height: 60px;
+    width: 180px;
+}
+
+.book:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.sub img{
+    display: none;
+}
+
+.sub:hover img{
+    display: block;
+}
+
+.book{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    width: 180px;
+    background-color: tomato;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.content3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
