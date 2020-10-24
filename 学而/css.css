@@ -62,7 +62,7 @@
     text-align: center;
     padding-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: absolute;
     right: 150px;
     top: 2px;
