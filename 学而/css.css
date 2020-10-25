@@ -1,18 +1,20 @@
 .header{
-    height: 80px;
+    height: 84px;
     background-color: #fff;
 
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: auto 0;
 }
 
 .pic1
 {
     display: inline-block;
-}
-
-.pic1 img{
-    position: absolute;
-    top: 16px;
-    left: 200px;
+    padding-top: 20px;
 }
 
 .d1
@@ -23,9 +25,13 @@
     height: 80px;
     text-align: center;
     line-height: 80px;
-    position: absolute;
-    top: 2px;
-    left: 300px;
+    border-top: 4px solid transparent;
+    /* margin-top: -4px; */
+}
+
+.d1:hover{
+    color: coral;
+    border-top: coral solid 4px;
 }
 
  .d2{
@@ -35,23 +41,32 @@
     height: 80px;
     text-align: center;
     line-height: 80px;
-    position: absolute;
-    top: 2px;
-    left: 400px;
+    border-top: 4px solid transparent;
+    /* margin-top: -4px; */
 }
 
+.d2:hover{
+    color: coral;
+    border-top: coral solid 4px;
+}
+
+.q1{
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    width: 300px;
+    margin-left: 150px;
+}
 
 .search{
     background-color: red;
     height: 30px;
     display: inline-block;
-    width: 250px;
+    width: 240px;
     padding-top: 4px;
     padding-left: 4px;
     overflow: hidden;
-    position: absolute;
-    top: 26px;
-    left: 600px;
+    margin-top: 25px;
 }
 
 .d3
@@ -63,9 +78,7 @@
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    right: 150px;
-    top: 2px;
+
 }
 
 .d3 input{
@@ -75,6 +88,14 @@
     background-color: rgb(88, 223, 182);
     border:none;
     color: seashell;
+}
+
+.q2{
+    float: right;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 140px;
 }
 
 .d4{
@@ -116,17 +137,16 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .footer img{
-    margin-left: 35%;
-    margin-top: 20px;
+    margin: 0 auto;
 }
 
 .footer p{
     color: rgb(177, 177, 177);
-    margin-left: 475px;
-    margin-top: 0px;
+    margin: 0 auto;
 }
 
 
@@ -154,6 +174,10 @@
 
 .cou :hover {
     color: coral;
+}
+
+.cou:hover > span {
+    color: coral
 }
 
 .word{
@@ -195,11 +219,11 @@
 
 .p1{
     text-align: center;
-    padding-top: 35px;
-    padding-bottom: 40px;
+    vertical-align: middle;
     width: 140px;
+    height: 120px;
     border: rgb(88, 223, 182) solid 4px;
-    display: inline-block;
+    display: table-cell;
 }
 
 .p1:hover{
@@ -211,19 +235,26 @@
     font-size: 50px;
     color: red;
     text-align: center;
-    padding-top: 35px;
-    padding-bottom: 40px;
+    vertical-align: middle;
     width: 148px;
+    height: 120px;
     text-decoration: underline;
-    display: inline-block;
+    display: table-cell;
 }
 
 
 
 .content1{
-    text-align: center;
+    display: table;
+    width: 800px;
+    margin: auto;
 }
 
+.content2{
+    display: table;
+    width: 800px;
+    margin: auto;
+}
 
 .sub{
     display: flex;
