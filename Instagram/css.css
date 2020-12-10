@@ -41,11 +41,30 @@
 
 .kuang{
     border:1px solid #000;
-    width: 430px;
-    height: 100px;
+    width: 490px;
+    height: 85px;
     overflow:auto;
     background-color: #fff;
+    margin-top: 10px;
 }
+
+.kuang::-webkit-scrollbar{
+    width: 5px;
+    height: 0;
+    background-color: #fff;
+}
+
+.kuang::-webkit-scrollbar-track{
+    border-radius: 30px;
+    background-color: gainsboro;
+}
+
+.kuang::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+    background-color: gainsboro;
+}
+
 .d1 img:hover{
     filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8
 }
@@ -83,14 +102,12 @@
 }
 
 .hind{
-    visibility: visible;
+    display: none;
     position: absolute;
     right: 150px;
     top: 225px;
 }
 
-
-#abc:hover + .hind{
-    /* visibility: visible; */
-    color: red;
+.hov:hover .hind{
+    display: block;
 }
